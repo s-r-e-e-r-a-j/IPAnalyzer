@@ -41,15 +41,33 @@ After running the script, you'll be presented with an interactive menu where you
 - **Analyze an IP:** Enter an IP address and receive detailed information about it, including geolocation, country, timezone, ASN, and more.
 - **Check Your Own IP:** View the current IP address (via Tor or your regular IP) and verify if the requests are being routed through Tor.
 - **Exit the Tool:** Option to exit the tool at any time.
-Example:
-bash
-Copy
-Edit
-Welcome to IPAnalyzer!
-Please choose an option:
-1. Analyze an IP address
-2. View your own IP address
-3. Exit
+  
+## Example:
+```markdown
+
+  _____ _____                    _                    
+ |_   _|  __ \ /\               | |                   
+   | | | |__) /  \   _ __   __ _| |_   _ _______ _ __ 
+   | | |  ___/ /\ \ | '_ \ / _` | | | | |_  / _ \ '__|
+  _| |_| |  / ____ \| | | | (_| | | |_| |/ /  __/ |   
+ |_____|_| /_/    \_\_| |_|\__,_|_|\__, /___\___|_|   
+                                    __/ |             
+                                   |___/              
+
+                                 Developer : Sreeraj
+
+* Copyright © Sreeraj, 2024
+* GitHub: https://github.com/s-r-e-e-r-a-j
+
+  [01] My Original IP
+  [02] My Tor IP 
+  [03] Track an IP
+  [00] Exit
+
+  [~] Select An Option:
+
+```
+
 Follow the prompts to analyze any IP or check your own IP.
 
 ## How It Works
