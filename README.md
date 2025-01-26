@@ -1,5 +1,5 @@
 ## IPAnalyzer
-IPAnalyzer is an ethical hacking tool built for Linux distributions, designed to gather detailed information about IP addresses. This tool provides geolocation, timezone, country code, ASN, and other valuable data related to any given IP address. It also integrates with the Tor network to ensure anonymity and avoid API rate limiting by frequently changing IP addresses during requests.
+IPAnalyzer is an OSINT ethical hacking tool built for Linux distributions, designed to gather detailed information about IP addresses. This tool provides geolocation, timezone, country code, ASN, and other valuable data related to any given IP address. It also integrates with the Tor network to ensure anonymity and avoid API rate limiting by frequently changing IP addresses during requests.
 
 This tool is made specifically for Linux distributions, like Kali Linux, and has been tested on Kali Linux to ensure smooth operation.
 
@@ -82,5 +82,5 @@ Follow the prompts to analyze any IP or check your own IP.
 - **Tested on Kali Linux:** This tool is specifically built for Linux distributions, like Kali Linux. It has been tested on **Kali Linux** to ensure compatibility and smooth functioning.
 - **Works on other Linux-based distros:** Should work seamlessly on other Linux-based operating systems with similar setups.
   ## License
-This tool is Licensed under the mit license
+This tool is open-source and available under the MIT License.
 
