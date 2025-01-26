@@ -9,6 +9,21 @@ CYAN='\e[1;96m'
 WHITE='\e[1;97m'
 RESET='\e[0m'
 
+
+#check if the user run as root or with sudo
+
+check_sudo() {
+
+   if [ "$EUID" -ne 0 ];then
+
+        echo -e "${YELLOW} Please Run This Tool As Root Or With sudo${RESET}"
+
+        exit 1
+
+   fi 
+
+ }
+
 # Function to check and install dependencies
 check_dependencies() {
   echo -e "${YELLOW}Checking required dependencies...${RESET}"
@@ -156,6 +171,7 @@ parse_ip_data() {
 }
 
 # Main
+check_sudo
 check_dependencies
 banner
 menu
