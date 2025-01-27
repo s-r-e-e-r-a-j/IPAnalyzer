@@ -26,7 +26,7 @@ check_sudo() {
 
  exits() {
 
-sudo service tor stop
+sudo systemctl stop tor
 
 exit 0
 
