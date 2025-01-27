@@ -24,6 +24,14 @@ check_sudo() {
 
  }
 
+ exits() {
+
+sudo service tor stop
+
+exit 0
+
+  }
+
 # Function to check and install dependencies
 check_dependencies() {
   echo -e "${YELLOW}Checking required dependencies...${RESET}"
@@ -102,7 +110,7 @@ menu() {
     1 | 01) my_original_ip ;;
     2 | 02) my_tor_ip ;;
     3 | 03) track_ip ;;
-    0 | 00) exit 0 ;;
+    0 | 00) exits ;;
     *) 
       printf "${RED}[!] Invalid option${RESET}\n"
       sleep 1
