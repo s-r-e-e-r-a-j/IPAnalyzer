@@ -138,6 +138,7 @@ parse_ip_data() {
   region=$(echo $ip_data | jq -r '.region')
   country=$(echo $ip_data | jq -r '.country_name')
   country_code=$(echo $ip_data | jq -r '.country')
+  region_code=$(echo $ip_data | jq -r '.region_code')
   languages=$(echo $ip_data | jq -r '.languages')
   calling_code=$(echo $ip_data | jq -r '.country_calling_code')
   timezone=$(echo $ip_data | jq -r '.timezone')
@@ -154,6 +155,7 @@ parse_ip_data() {
   printf "  ${GREEN}Region       : $region${RESET}\n"
   printf "  ${GREEN}Country      : $country${RESET}\n"
   printf "  ${GREEN}Country Code : $country_code${RESET}\n"
+  printf "  ${GREEN}Region Code  : $region_code${RESET}\n"
   printf "  ${GREEN}Languages    : $languages${RESET}\n"
   printf "  ${GREEN}Calling Code : $calling_code${RESET}\n"
   printf "  ${GREEN}Timezone     : $timezone${RESET}\n"
