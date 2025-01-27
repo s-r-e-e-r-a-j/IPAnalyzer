@@ -26,9 +26,7 @@ check_sudo() {
 
  exits() {
 
-sudo systemctl stop tor
-
-exit 0
+sudo systemctl stop tor && exit 0
 
   }
 
