@@ -56,7 +56,7 @@ check_dependencies() {
 # Function to change Tor IP
 change_tor_ip() {
   printf "\n${CYAN}Changing Tor IP...${RESET}\n"
-  echo -e 'AUTHENTICATE ""\r\nsignal NEWNYM\r\nquit' | nc localhost 9051 > /dev/null
+  sudo systemctl restart tor
   sleep 2
 }
 
