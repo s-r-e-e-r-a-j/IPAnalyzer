@@ -47,7 +47,7 @@ check_dependencies() {
   # Ensure Tor service is running
   if ! systemctl is-active --quiet tor; then
     echo -e "${YELLOW}Starting Tor service...${RESET}"
-    sudo service tor start
+    sudo systemctl start tor
   else
     echo -e "${GREEN}[âœ”] Tor service is running.${RESET}"
   fi
