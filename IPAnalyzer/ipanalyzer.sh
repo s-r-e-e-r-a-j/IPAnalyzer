@@ -56,6 +56,7 @@ check_dependencies() {
 # Function to change Tor IP
 change_tor_ip() {
   printf "\n${CYAN}Changing Tor IP...${RESET}\n"
+  printf "${CYAN}Searching for IP Details...${RESET}\n"
   sudo systemctl restart tor
   sleep 2
 }
