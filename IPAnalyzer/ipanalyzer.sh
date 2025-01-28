@@ -24,6 +24,7 @@ check_sudo() {
 
  }
 
+#function for exit
  exits() {
 
 sudo systemctl stop tor && exit 0
