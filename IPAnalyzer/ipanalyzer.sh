@@ -126,7 +126,7 @@ my_original_ip() {
 my_tor_ip() {
   change_tor_ip
   ip_data=$(tor_request "https://ipapi.co/json")
-  parse_ip_data "$ip_data" "Your Tor Exit Node IP"
+  parse_ip_data "$ip_data" "Your Tor IP"
 }
 
 track_ip() {
