@@ -92,7 +92,7 @@ cat << "EOF"
 
 EOF
  
-  printf "${RESET}${YELLOW}* Copyright © Sreeraj, 2024${RESET}\n"
+  printf "${RESET}${YELLOW}* Copyright © Sreeraj, 2025${RESET}\n"
   printf "${YELLOW}* GitHub: https://github.com/s-r-e-e-r-a-j${RESET}\n"
  
 }
