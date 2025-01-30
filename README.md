@@ -56,7 +56,7 @@ After running the script, you'll be presented with an interactive menu where you
 
                                  Developer : Sreeraj
 
-* Copyright © Sreeraj, 2024
+* Copyright © Sreeraj, 2025
 * GitHub: https://github.com/s-r-e-e-r-a-j
 
   [01] My Original IP
