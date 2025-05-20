@@ -41,7 +41,7 @@ check_dependencies() {
       echo -e "${RED}[*] $dep not found! Installing...${RESET}"
       sudo apt update && sudo apt install -y $dep
     else
-      echo -e "${GREEN}[âœ”] $dep is already installed.${RESET}"
+      echo -e "${GREEN}[*] $dep is already installed.${RESET}"
     fi
   done
 
@@ -50,7 +50,7 @@ check_dependencies() {
     echo -e "${YELLOW}Starting Tor service...${RESET}"
     sudo systemctl start tor
   else
-    echo -e "${GREEN}[âœ”] Tor service is running.${RESET}"
+    echo -e "${GREEN}[*] Tor service is running.${RESET}"
   fi
 }
 
