@@ -78,6 +78,6 @@ Follow the prompts to analyze any IP or check your own IP.
 - **jq:** A lightweight and flexible command-line JSON processor.
 - **Tor:** Used for routing requests through the Tor network to maintain anonymity and avoid rate limits.
 
-  ## License
+## License
 This tool is open-source and available under the MIT License.
 
