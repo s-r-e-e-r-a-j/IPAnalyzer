@@ -78,9 +78,7 @@ Follow the prompts to analyze any IP or check your own IP.
 - **curl:** Used for making HTTP requests to the API for fetching IP information.
 - **jq:** A lightweight and flexible command-line JSON processor.
 - **Tor:** Used for routing requests through the Tor network to maintain anonymity and avoid rate limits.
-## Compatibility
-- **Tested on Kali Linux:** This tool is specifically built for Linux distributions, like Kali Linux. It has been tested on **Kali Linux** to ensure compatibility and smooth functioning.
-- **Works on other Linux-based distros:** Should work seamlessly on other Linux-based operating systems with similar setups.
+
   ## License
 This tool is open-source and available under the MIT License.
 
