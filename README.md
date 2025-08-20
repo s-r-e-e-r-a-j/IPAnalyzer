@@ -10,6 +10,10 @@ This tool is made specifically for Debian-based Linux distributions, like Kali L
 - **API Requests:** Continuously fetch information using Tor by changing IP addresses for each request.
 - **Interactive Menu:** User-friendly interface to interact with the tool and easily gather IP-related information.
 - **Automated Dependency Installation:** Installs required dependencies automatically if they are not already present.
+   - **curl:** Used for making HTTP requests to the API for fetching IP information.
+   - **jq:** A lightweight and flexible command-line JSON processor.
+   - **Tor:** Used for routing requests through the Tor network to maintain anonymity and avoid rate limits.
+  
 ## Installation
 To install and run IPAnalyzer, follow these steps:
 
@@ -73,10 +77,6 @@ Follow the prompts to analyze any IP or check your own IP.
 1. **IP Analysis:** When you select the option to analyze an IP address, the tool fetches geolocation details such as the city, country, region, timezone, languages, and ASN of the given IP.
 2. **Tor Integration:** IPAnalyzer automatically connects to the Tor network if it's not already running, ensuring that each request is routed through a new IP address, which helps in avoiding rate limits imposed by the API.
 3. **Anonymous Requests:** The tool helps maintain privacy by masking the user's real IP address during the analysis.
-## Dependencies
-- **curl:** Used for making HTTP requests to the API for fetching IP information.
-- **jq:** A lightweight and flexible command-line JSON processor.
-- **Tor:** Used for routing requests through the Tor network to maintain anonymity and avoid rate limits.
 
 ## License
 This tool is open-source and available under the MIT License.
