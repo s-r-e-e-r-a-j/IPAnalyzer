@@ -15,7 +15,7 @@ This tool is made specifically for Debian-based Linux distributions, like Kali L
    - **Tor:** Used for routing requests through the Tor network to maintain anonymity and avoid rate limits.
 
 ## Disclaimer 
-IPAnalyzer is a legal OSINT tool developed for educational and ethical purposes. It should be used only on IP addresses and networks you own or have explicit permission to analyze. Any unauthorized or illegal use is strictly prohibited. The developer assumes no responsibility for misuse of this tool.
+IPAnalyzer is a legal OSINT tool created for educational and ethical use only. Please use it responsibly.
 
 ## Installation
 To install and run IPAnalyzer, follow these steps:
